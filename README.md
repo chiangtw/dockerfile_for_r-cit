@@ -13,14 +13,14 @@ https://hub.docker.com/r/treeslab/r-cit
 ## Usage
 
 ```
-docker pull treeslab:r-cit
+docker pull treeslab/r-cit
 ```
 
 ```
 docker run \
     -i -t --rm \
     --mount type=bind,source="$(pwd)",target=/data \
-    treeslab:r-cit \
+    treeslab/r-cit \
     Rscript test.R
 ```
 
