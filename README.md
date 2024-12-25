@@ -6,6 +6,7 @@ https://hub.docker.com/r/treeslab/r-cit
 ### Included packages
 
  - r-cit (https://cran.r-project.org/web/packages/cit/index.html)
+ - r-bnlearn (https://cran.r-project.org/web/packages/bnlearn/index.html)
  - r-tidyverse (https://cran.r-project.org/web/packages/tidyverse/index.html)
  - r-r.utils (https://cran.r-project.org/web/packages/R.utils/index.html)
 

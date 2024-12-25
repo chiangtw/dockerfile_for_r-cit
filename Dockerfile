@@ -4,6 +4,7 @@ WORKDIR /data
 
 RUN mamba create -n cit -c anaconda -c r -y r-cit \
     && mamba install -n cit -c r -y r-tidyverse r-r.utils \
+    && mamba install -n cit -c r -y r-bnlearn \
     && mamba clean -a
 
 RUN mamba init \
